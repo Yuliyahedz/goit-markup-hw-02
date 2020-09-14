@@ -1,0 +1,244 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --lighttitle-text-color: #FFFFFF;
+    --footer-text-color: rgba(255, 255, 255, 0.6);
+    --header-logo-color: #000000;
+    --darksections-color: #2F303A;
+    --lightsection-color: #E5E5E5;
+    --middlesection-color: #F5F4FA;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+.list {
+    list-style: none;
+  }
+  
+.link {
+    text-decoration: none;
+  }
+
+.address {
+    font-style: normal; 
+ }
+
+.header-section {
+    background: var(--lighttitle-text-color)
+}
+
+.logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+}
+.web {
+    color: var(--accent-color);
+}
+
+.studio {
+    color: var(--header-logo-color);
+}
+
+.navigation-list .navigation-list-link.current {
+    color: var(--accent-color);
+}
+
+.navigation-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.address-list-link:hover,
+.address-list-link:focus,
+.footer-address-link:hover,
+.footer-address-link:focus,
+.footer-mail-link:hover,
+.footer-mail-link:focus,
+.footer-tel-link:hover,
+.footer-tel-link:focus
+{
+    color: var(--accent-color);    
+}
+
+.address-list-link, {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.hero-section {
+    background: var(--darksections-color);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--lighttitle-text-color)
+}
+
+.modal-button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--lighttitle-text-color);
+}
+
+.advantages-section {
+    background: var(--lightsection-colo);
+}
+
+.advantages-list-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+.advantages-list-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;   
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);   
+}
+
+.jobs-section {
+    background: var(--lightsection-colo);
+}
+
+.jobs-title,
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);   
+}
+
+.team-section {
+    background: var(--middlesection-color);
+}
+
+.team-list-member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color); 
+}
+
+.team-list-profession {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.footer {
+    background: var(--darksections-color);
+}
+
+.logo-footer {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+}
+.web-footer {
+    color: var(--accent-color);
+}
+
+.studio-footer {
+    color: var(--lighttitle-text-color);
+}
+
+.footer-address-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;    
+    color: var(--lighttitle-text-color)
+}
+
+.footer-mail-link,
+.footer-tel-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: var(--footer-text-color);
+}
+
+.galery-filter-button {
+    font-family: Roboto;
+    font-style: 400;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;   
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--lighttitle-text-color);   
+}
+
+.galery-list-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);   
+}
+
+.galery-list-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
