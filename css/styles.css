@@ -12,7 +12,6 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    font-style: normal;
 }
 
 .list {
@@ -28,21 +27,22 @@ body {
  }
 
 .header-section {
-    background: var(--lighttitle-text-color)
+    background: var(--lighttitle-text-color);
 }
 
-.logo {
-    font-family: Raleway;
+.logo-link {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
 }
-.web {
+.web-header {
     color: var(--accent-color);
 }
 
-.studio {
+.studio-header {
     color: var(--header-logo-color);
 }
 
@@ -73,7 +73,7 @@ body {
     color: var(--accent-color);    
 }
 
-.address-list-link, {
+.address-list-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.143;
@@ -96,8 +96,6 @@ body {
 }
 
 .modal-button {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
@@ -106,7 +104,9 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--lighttitle-text-color);
+    background: var(--accent-color);
 }
+
 
 .advantages-section {
     background: var(--lightsection-colo);
@@ -169,13 +169,6 @@ body {
     background: var(--darksections-color);
 }
 
-.logo-footer {
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.192;
-    letter-spacing: 0.03em;
-}
 .web-footer {
     color: var(--accent-color);
 }
@@ -201,15 +194,19 @@ body {
     color: var(--footer-text-color);
 }
 
+.galery-filter-button:hover,
+.galery-filter-button:focus {
+    color: var(--lighttitle-text-color);
+    background: var(--accent-color);
+} 
+
 .galery-filter-button {
-    font-family: Roboto;
-    font-style: 400;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625;   
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--lighttitle-text-color);   
+    color: var(--title-text-color);   
 }
 
 .galery-list-title {
